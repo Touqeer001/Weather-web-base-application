@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Application</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <div class="card">
+        <div class="search">
+            <input type="text" placeholder="Enter City Name" spellcheck="false">
+            <button><img src="search.png" alt=""></button>
+        </div>
+        <div class="error">
+            <p>Invalid City Name</p>
+        </div>
+        <div class="weather">
+
+
+
+            <img src="rain.png" class="wheather-icon">
+            <h1 class="temp">22°C</h1>
+            <h2 class="city">Bhiwandi</h2>
+            <div class="detail">
+                <div class="col">
+                    <img src="humidity.png" >
+                    <div>
+                        <p class="humudity">50%</p>
+                        <p>humidity</p>
+                    </div>
+                </div>
+                <div class="col">
+                    <img src="wind.png" >
+                    <div>
+                        <p class="wind">15 km/hr</p>
+                        <p>wind</p> 
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script>
+        const apiKey="c3ef1bbd90e976ae8c92a3d4f32620ca";
+        const apiUrl="https://api.openweathermap.org/data/2.5/weather?&units=metric&q=";
+        const searchBox=document.querySelector(".search input")
+        const searchBtn=document.querySelector(".search button")
+        const weatherIcon=document.querySelector(".wheather-icon")
+        async function checkWeather(city){
+            const response =await fetch(apiUrl + city + `&appid=${apiKey}`);
+            if(response.status==404){
+                document.querySelector(".error").style.display="block"
+                document.querySelector(".weather").style.display="none"
+            }
+            else{
+                var data =await response.json();
+            // https://api.openweathermap.org/data/2.5/weather?q={pune}&appid={c3ef1bbd90e976ae8c92a3d4f32620ca}
+            console.log(data);
+           
+
+            document.querySelector(".city").innerHTML = data.name;
+            document.querySelector(".temp").innerHTML =Math.round(data.main.temp)  + "°C";
+            document.querySelector(".humudity").innerHTML = data.main.humidity + "%";
+            document.querySelector(".wind").innerHTML= data.wind.speed + "km/hr";
+            if(data.weather[0].main=="Clouds"){
+                weatherIcon.src="clouds.png";
+            }else if(data.weather[0].main=="Clear"){
+                weatherIcon.src="clear.png";
+            }else if(data.weather[0].main=="Rain"){
+                  weatherIcon.src="rain.png";
+
+            }else if(data.weather[0].main=="Drizzle"){
+                  weatherIcon.src="drizzle.png";
+
+            }else if(data.weather[0].main=="Mist"){
+                  weatherIcon.src="mist.png";
+
+            }
+            document.querySelector(".weather").style.display="block"
+            document.querySelector(".error").style.display="none"
+        }
+            
+            
+            
+
+        }
+        searchBtn.addEventListener("click",()=>{
+            checkWeather(searchBox.value);
+        })
+  
+        
+    </script>
+    
+</body>
+</html>
