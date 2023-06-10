@@ -31,12 +31,13 @@ body{
     outline: 0;
     background: #ebfffc;
     color: #555;
-    padding:10px 25px;
+    padding: 10px 25px;
     height: 60px;
-    border-radius:30px;
+    width: 100%;
+    border-radius: 30px;
     flex: 1;
     margin-right: 16px;
-    font-size:25px;
+    font-size: 23px;
 
 }
 .search button{
@@ -47,11 +48,14 @@ body{
     width: 60px;
     height: 60px;
     cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     
 
 }
 .search button img{
-    width: 16px;
+    width: 20px;
 }
 .wheather-icon{
     width: 170px;
@@ -77,6 +81,7 @@ body{
     display: flex;
     align-items: center;
     text-align: left;
+    margin: 0px 5px;
 
 }
 .col img{
@@ -90,6 +95,9 @@ margin-top: -6px;
 }
 .weather{
     display:none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 .error{
     font-family: 'Times New Roman', Times, serif;
