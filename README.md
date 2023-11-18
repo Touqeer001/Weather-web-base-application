@@ -12,7 +12,7 @@
 <p align="center">
   
   <img src="https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E" alt="javascript" />
-    <img src="https://img.shields.io/badge/HTML-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E" alt="HTML" />
+    <img src="https://img.shields.io/badge/HTML?style=for-the-badge&logo=javascript&logoColor=F7DF1E" alt="HTML" />
   <img src="https://img.shields.io/badge/Rest_API-02303A?style=for-the-badge&logo=react-router&logoColor=white" alt="restAPI" />
   <img src="https://img.shields.io/badge/@material-ui/core?style=for-the-badge&logo=@material-ui/core&logoColor=white" alt="@material-ui/core" />
  
