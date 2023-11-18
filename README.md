@@ -40,12 +40,16 @@ weather web application, developed using HTML, CSS, and JavaScript, offers a use
 <br />
 
 ## Screens ( All screens are responsive)
-- Homepage / Landing Page
-- Login / Logout Page
-- Signup Page
-- Categories Page
-- Create Post Page
-- Upload PAge
+- Homepage
+- Search Functionality
+- Displays the following information:
+-Wind Speed
+-Humidity
+-Current Weather Conditions
+-Weather Conditions:
+-Clearly indicates whether the weather is:
+-Cloudy
+-Raining
 
 
 
@@ -53,40 +57,32 @@ weather web application, developed using HTML, CSS, and JavaScript, offers a use
 
 
 ## 🚀 Features
-- Login and Signup User Account
-- JWT (Json Web Token) Authentication and BcryptJS Password Hashing
-- User authentication and authorization with JWT
-- CRUD operations for blog posts and user profiles .
-- User can comments and delete comments.
-- Upload Post
-- User Can Read other Post. 
+- Search Functionality
+- Displays the following information:
+-Wind Speed
+-Humidity
+-Current Weather Conditions
+-Weather Conditions:
+-Clearly indicates whether the weather is:
+-Cloudy
+-Raining
 
 
 <br />
 
-## Glimpses of Blog-Application 🙈 :
+## Glimpses of Weather-Application 🙈 :
 
 
 <table>
   <tr>
-    <td><img src="https://github.com/Touqeer001/Blog-Web-Application-Using-Mern-Stack/assets/126690073/3007acbc-4ea3-46e6-b88b-7b23f03f7fc3" alt="home" /></td>
-  <td><img src="https://github.com/Touqeer001/Blog-Web-Application-Using-Mern-Stack/assets/126690073/a8ba93c5-7302-4183-a370-3750a864dd15" alt="ReadBlog" /></td>
+    <td><img src="(https://github.com/Touqeer001/Weather-web-base-application/assets/126690073/71189143-d389-4a98-9169-cd0a8c5b497d)" alt="home" /></td>
+  <td><img src="(https://github.com/Touqeer001/Weather-web-base-application/assets/126690073/d8096c2b-2f78-4470-8978-10d5b70222d0)" alt="Search Page" /></td>
   </tr>
   <tr>
-    <td><img src="https://github.com/Touqeer001/Blog-Web-Application-Using-Mern-Stack/assets/126690073/934a6e5d-47a9-4a90-9ef2-0defc845c487" alt="signup" /></td>
-    <td><img src="https://github.com/Touqeer001/Blog-Web-Application-Using-Mern-Stack/assets/126690073/3bb302b1-138a-45ae-b5e0-0e7cd0d57e1ag" alt="login" /></td>
+    <td><img src="(https://github.com/Touqeer001/Weather-web-base-application/assets/126690073/b7ed7b56-e333-4282-b7aa-a805d8a3dc57)" alt="" /></td>
+    <td><img src="(https://github.com/Touqeer001/Weather-web-base-application/assets/126690073/7c75e11c-ba7e-42a2-bb86-64b549a135ae)" alt="" /></td>
   </tr>
-  <tr>
-    <td><img src="https://github.com/Touqeer001/Blog-Web-Application-Using-Mern-Stack/assets/126690073/7837998f-0e56-4681-a48f-762f95fb459d" alt="AboutPage" /></td>
-    <td><img src="https://github.com/Touqeer001/Blog-Web-Application-Using-Mern-Stack/assets/126690073/fd134ea1-074a-4ca4-9214-106ce98f0bf1"
- alt="Contact" /></td>
-  </tr>
-  <tr>
-    <td><img src="https://github.com/Touqeer001/Blog-Web-Application-Using-Mern-Stack/assets/126690073/235227ec-d3e9-4c40-9a97-3d4f7cef30c5"
-alt="CreateBlog" /></td>
-    <td><img src="https://github.com/Touqeer001/Blog-Web-Application-Using-Mern-Stack/assets/126690073/a8ba93c5-7302-4183-a370-3750a864dd15" alt="ReadBlog" /></td>
-  </tr>
- 
+
   
  
 </table>
