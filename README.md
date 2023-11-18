@@ -59,13 +59,13 @@ weather web application, developed using HTML, CSS, and JavaScript, offers a use
 ## 🚀 Features
 - Search Functionality
 - Displays the following information:
--Wind Speed
--Humidity
--Current Weather Conditions
--Weather Conditions:
--Clearly indicates whether the weather is:
--Cloudy
--Raining
+- Wind Speed
+- Humidity
+- Current Weather Conditions
+- Weather Conditions:
+- Clearly indicates whether the weather is:
+- Cloudy
+- Raining
 
 
 <br />
@@ -75,12 +75,12 @@ weather web application, developed using HTML, CSS, and JavaScript, offers a use
 
 <table>
   <tr>
-    <td><img src="(https://github.com/Touqeer001/Weather-web-base-application/assets/126690073/71189143-d389-4a98-9169-cd0a8c5b497d)" alt="home" /></td>
-  <td><img src="(https://github.com/Touqeer001/Weather-web-base-application/assets/126690073/d8096c2b-2f78-4470-8978-10d5b70222d0)" alt="Search Page" /></td>
+    <td><img src="https://github.com/Touqeer001/Weather-web-base-application/assets/126690073/71189143-d389-4a98-9169-cd0a8c5b497d" alt="home" /></td>
+  <td><img src="https://github.com/Touqeer001/Weather-web-base-application/assets/126690073/d8096c2b-2f78-4470-8978-10d5b70222d0" alt="Search Page" /></td>
   </tr>
   <tr>
-    <td><img src="(https://github.com/Touqeer001/Weather-web-base-application/assets/126690073/b7ed7b56-e333-4282-b7aa-a805d8a3dc57)" alt="" /></td>
-    <td><img src="(https://github.com/Touqeer001/Weather-web-base-application/assets/126690073/7c75e11c-ba7e-42a2-bb86-64b549a135ae)" alt="" /></td>
+    <td><img src="https://github.com/Touqeer001/Weather-web-base-application/assets/126690073/b7ed7b56-e333-4282-b7aa-a805d8a3dc57" alt="" /></td>
+    <td><img src="https://github.com/Touqeer001/Weather-web-base-application/assets/126690073/7c75e11c-ba7e-42a2-bb86-64b549a135ae" alt="" /></td>
   </tr>
 
   
