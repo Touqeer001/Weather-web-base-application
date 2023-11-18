@@ -13,7 +13,7 @@
   <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="html5" />
   <img src="https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E" alt="javascript" />
   <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="css3" />
- 
+
 </p>
 
 
@@ -23,18 +23,18 @@
 <p align="center">
   <br />&#10023;
   <a href="#Demo">View Demo</a> &#10023;
-  <a href="https://github.com/Touqeer001/Blog-Web-Application-Using-Mern-Stack/issues">Report Bug</a> &#10023;
+  <a href="https://github.com/Touqeer001/Weather-web-base-application/issues">Report Bug</a> &#10023;
   <a href="#Getting-Started">Getting Started</a> &#10023; 
   <a href="#Install">Installing</a> &#10023;
   <a href="#Contact">Author</a> &#10023;
 </p>
 
-
-Introducing our cutting-edge blog web application! 🌐 Immerse yourself in a seamless user experience, powered by the latest web technologies. Explore engaging content, seamless navigation, and a dynamic platform designed for both creators and readers.A full - stack web application that allows users to create , read, update , and delete blog posts. Built using the MERN stack to provide a seamless user experience
-
+weather web application, developed using HTML, CSS, and JavaScript, offers a user-friendly interface with a convenient search function. By leveraging a Weather API, the application dynamically presents essential weather details, including wind speed, humidity, and current weather conditions. The interface also succinctly communicates whether the weather is cloudy or accompanied by rain, providing users with a comprehensive overview of atmospheric conditions in their specified city
 
 
-![cover](https://github.com/Touqeer001/Blog-Web-Application-Using-Mern-Stack/assets/126690073/3007acbc-4ea3-46e6-b88b-7b23f03f7fc3)
+
+![cover](https://github.com/Touqeer001/Weather-web-base-application/assets/126690073/7a4f9ce3-ea7f-499d-923a-cd1a104f67b7)
+
 
 
 <br />
