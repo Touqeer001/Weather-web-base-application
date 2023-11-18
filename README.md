@@ -24,8 +24,6 @@
   <br />&#10023;
   <a href="#Demo">View Demo</a> &#10023;
   <a href="https://github.com/Touqeer001/Weather-web-base-application/issues">Report Bug</a> &#10023;
-  <a href="#Getting-Started">Getting Started</a> &#10023; 
-  <a href="#Install">Installing</a> &#10023;
   <a href="#Contact">Author</a> &#10023;
 </p>
 
@@ -43,13 +41,12 @@ weather web application, developed using HTML, CSS, and JavaScript, offers a use
 - Homepage
 - Search Functionality
 - Displays the following information:
--Wind Speed
--Humidity
--Current Weather Conditions
--Weather Conditions:
--Clearly indicates whether the weather is:
--Cloudy
--Raining
+ Wind Speed
+ Humidity
+ Current Weather Conditions
+- Clearly indicates whether the weather is:
+Cloudy
+Raining
 
 
 
