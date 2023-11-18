@@ -41,11 +41,11 @@ weather web application, developed using HTML, CSS, and JavaScript, offers a use
 - Homepage
 - Search Functionality
 - Displays the following information:
- Wind Speed
+ Wind Speed,
  Humidity
  Current Weather Conditions
 - Clearly indicates whether the weather is:
-Cloudy
+Cloudy,
 Raining
 
 
@@ -56,13 +56,13 @@ Raining
 ## 🚀 Features
 - Search Functionality
 - Displays the following information:
-- Wind Speed
-- Humidity
+ Wind Speed,
+ Humidity
 - Current Weather Conditions
 - Weather Conditions:
 - Clearly indicates whether the weather is:
-- Cloudy
-- Raining
+ Cloudy ,
+  Raining
 
 
 <br />
